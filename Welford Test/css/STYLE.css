@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+.head_text {
+  text-align: center;
+  background: #FFF;
+  color: #666;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}
+.nav-link{ color:#666;}
+.nav-link:hover{ color:#ff539b;}
+.grayBg{
+	 background-color:#9ab4b3;
+	}
+.middleBox{ 
+	 background-color:#FFF;
+	 color:#999; 
+	 display:block; 
+	 position:absolute; 
+	 bottom:5px; 
+	 width:80%; 
+	 margin:10%; 
+	 padding:10px;
+	 text-align:center;
+	 border:1px solid #CCC;
+    outline: 1px solid #CCC;
+ 	outline-offset: -8px;
+ }
+ .middleBox2{ 
+	 background-color:#FFF;
+	 color:#666; 
+	 width:100%;
+	 text-align:center;
+	 margin-top:5px; 
+ }
+  .middleBox2 p{ 
+	 color:#999;
+	 font-size:14px; 
+ 	 text-align:center; 
+ }
+h3{
+	color: darkgray;
+	font-size: small;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.fa {
+ padding: 10px;
+  font-size: 10px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.fa:hover {
+     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.fa-search {
+  background: #FFF;
+  color: #666;
+}
+.fa-shopping-basket {
+ background: #FFF;
+  color: #666;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
